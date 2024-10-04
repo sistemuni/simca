@@ -1,0 +1,4 @@
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();  // Evita que el formulario se envíe para hacer validaciones
+    alert('Formulario enviado. Gracias por contactarnos.');
+});
